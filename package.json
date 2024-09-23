@@ -15,8 +15,31 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+
+
+    "eject": "react-scripts eject",
+    "start": "node index.js",
+  "test": "jest",
+"deploy": "your-deploy-command",
+
+
+
+
+
+    "deploy": "npm run build && your-deployment-command"
+
+   
+
+   
+
+
+
+
+
+
+
+
+ },
   "eslintConfig": {
     "extends": [
       "react-app",
